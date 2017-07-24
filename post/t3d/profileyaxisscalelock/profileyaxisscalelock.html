@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="Hugo 0.25.1" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans%7CMarcellus+SC'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/solarized_dark.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../../css/styles.css">
+    <link rel="stylesheet" href="../../../css/custom.css">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="index.xml">
+    <link rel="icon" href="../../../img/favicon-clean.ico">
+
+    
+    <title>Locking the Y Axis scale of the profile tool T3D - PTS-AG</title>
+    <meta property='og:title' content="Locking the Y Axis scale of the profile tool T3D - PTS-AG">
+    <meta property="og:type" content="article">
+    
+
+    <meta property="og:url" content="https://precisionterrain.github.io/FAQ//">
+    
+    
+
+  </head>
+
+  <body>
+
+    <header class="site">
+      <nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="../../../index.html">PTS-AG</a>
+          </div>
+
+          <div id="navbar" class="collapse navbar-collapse">
+            
+            <ul class="nav navbar-nav navbar-right">
+              
+              
+              <li><a href="../../../contact.html">Contact</a></li>
+              
+              
+            </ul>
+            
+          </div>
+
+        </div>
+      </nav>
+    </header>
+
+    <div class="site">
+      <div class="container">
+
+
+
+<div class="single">
+
+  <div class="row">
+    <div class="col-md-8"  id="PrintThis">
+
+      <article class="single" itemscope="itemscope" itemtype="http://schema.org/Article" >
+
+        <meta itemscope itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" content=""/>
+        <meta itemprop="dateModified" content="2016-04-03T00:00:00&#43;00:00">
+        <meta itemprop="headline" content="Locking the Y Axis scale of the profile tool T3D">
+        <meta itemprop="description" content="The profile tool in T3RRA Design (T3D) is a versatile tool for visualizing the heights along a designated path. By default the Y Axis scale includes the extents of the whole surface being profiled. You can change this.
+
+">
+        <meta itemprop="url" content="/post/t3d/profileyaxisscalelock/profileyaxisscalelock.html">
+        <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+          <meta itemprop="url" content="/images/default.jpg" />
+          <meta itemprop="width" content="800">
+          <meta itemprop="height" content="800">
+        </div>
+        <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+          <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+            <meta itemprop="url" content="/images/logo.jpg">
+            <meta itemprop="width" content="100">
+            <meta itemprop="height" content="100">
+          </div>
+          <meta itemprop="name" content="PTS-AG" >
+        </div>
+        <div itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <meta itemprop="name" content="Precision Terrain Solutions © 2015">
+        </div>
+
+        <header class="article-header">
+          <time itemprop="datePublished" datetime="2016-04-03T00:00:00&#43;00:00">Sun, Apr 3, 2016</time>
+          <h1 class="article-title" >Locking the Y Axis scale of the profile tool T3D</h1>
+          <script type="text/javascript">
+            function printDiv(divName) {
+              var printContents = document.getElementById(divName).innerHTML;
+              var originalContents = document.body.innerHTML;
+              document.body.innerHTML = printContents;
+              window.print();
+              document.body.innerHTML = originalContents; 
+            }
+            document.write("<input type=\"button\" onclick=\"printDiv('PrintThis')\" class=\"fa fa-print no-print\" value=\"&#xf02f; print page\"\>");
+          </script>
+        </header>
+
+        <div class="article-body" itemprop="articleBody">
+          <p>The profile tool in T3RRA Design (T3D) is a versatile tool for visualizing the heights along a designated path. By default the Y Axis scale includes the extents of the whole surface being profiled. You can change this.</p>
+
+<p></p>
+
+<p><img src="yaxislock.png" alt="This is an image" title="profile tool with y axis lock applied" /></p>
+
+<p>You can shift and zoom the scale of graphs in T3D using the mouse and the scroll wheel. However, by default the Y-scale on the profile tool will return to it&rsquo;s initial settings whenever you move the location of the profile.</p>
+
+<p>To stop this resetting behavior simply check the &ldquo;Lock Y Axis&rdquo; box.</p>
+
+<p>See an animated gif of this here: <a href="https://twitter.com/t3rradesign/status/716359741719490561">https://twitter.com/t3rradesign/status/716359741719490561</a></p>
+        </div>
+
+
+        <aside class="no-print">
+          
+            <div class="section">
+              
+                <a href="../../../tags/T3RRA-DESIGN.html" class="tag">T3RRA DESIGN</a>  
+              
+                <a href="../../../tags/Profile-Tool.html" class="tag">Profile Tool</a>  
+              
+            </div>
+          
+
+          
+          
+          
+        </aside>
+
+      </article>
+
+    </div>
+    <div class="col-md-4">
+      
+<aside class="site">
+
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h2 class="panel-title">LatestPosts</h2>
+    </div>
+    <div class="list-group">
+      
+      <a href="../../../post/t3d/profileyaxisscalelock/profileyaxisscalelock.html" class="list-group-item">Locking the Y Axis scale of the profile tool T3D</a>
+      
+      <a href="../../../post/t3d/importingfromproject/importingfromproject.html" class="list-group-item">Importing layers from another project</a>
+      
+      <a href="../../../post/t3c/receiveraccuracy/receiveraccuracy.html" class="list-group-item">10 tips for maximizing vertical accuracy</a>
+      
+      <a href="../../../post/general/googleearthimport/googleearthimport.html" class="list-group-item">Effective use of Google Earth previews when importing data</a>
+      
+      <a href="../../../post/t3d/profileexport/profileexport.html" class="list-group-item">Exporting a profile of elevation points from T3D</a>
+      
+      <a href="../../../post/t3c/swathscollectingelevationdata/swathscollectingelevationdata.html" class="list-group-item">How close must swaths be when collecting elevation data?</a>
+      
+      <a href="../../../post/general/windowsupdateimportance/windowsupdateimportance.html" class="list-group-item">The importance of doing windows updates</a>
+      
+      <a href="../../../post/t3c/igradenmeastring/igradenmeastring.html" class="list-group-item">What NMEA strings does iGrade need for T3C?</a>
+      
+      <a href="../../../post/t3c/surfacingsearchradius/surfacingsearchradius.html" class="list-group-item">What is the search radius when surfacing in T3C and what should it be set to?</a>
+      
+      <a href="../../../post/general/3int3rra/3int3rra.html" class="list-group-item">What&#39;s with the &#39;3&#39; in T3RRA?</a>
+      
+    </div>
+  </div>
+
+  
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h2 class="panel-title">category</h2>
+    </div>
+    
+      <div class="list-group">
+        
+        <a href="../../../categories/t3rra-cutta.html" class="list-group-item">t3rra-cutta</a>
+        
+        <a href="../../../categories/t3rra-design.html" class="list-group-item">t3rra-design</a>
+        
+        <a href="../../../categories/general.html" class="list-group-item">general</a>
+        
+      </div>
+    
+  </div>
+ 
+  
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h2 class="panel-title">tag</h2>
+    </div>
+    
+      <div class="tag-list-group">
+        
+        <a href="../../../tags/t3rra-cutta.html" class="tag-list-group-item">t3rra-cutta</a>
+        
+        <a href="../../../tags/t3rra-design.html" class="tag-list-group-item">t3rra-design</a>
+        
+        <a href="../../../tags/external-software.html" class="tag-list-group-item">external-software</a>
+        
+        <a href="../../../tags/hardware.html" class="tag-list-group-item">hardware</a>
+        
+        <a href="../../../tags/import/export.html" class="tag-list-group-item">import/export</a>
+        
+        <a href="../../../tags/profile-tool.html" class="tag-list-group-item">profile-tool</a>
+        
+        <a href="../../../tags/rtk.html" class="tag-list-group-item">rtk</a>
+        
+      </div>
+    
+  </div>
+ 
+  
+</aside>
+
+
+    </div>
+  </div>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site">
+      <div class="container">
+        <p>&copy; 2016 PTS-AG</p>
+		</div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    
+
+  </body>
+</html>
+
